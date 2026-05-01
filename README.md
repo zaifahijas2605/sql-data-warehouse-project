@@ -100,32 +100,31 @@ These insights support **data-driven decision-making**.
 ---
 ## 📂 Repository Structure
 
+└── requirements.txt # Dependencies
 
 data-warehouse-project/
 │
-├── datasets/ # Raw datasets (ERP & CRM)
+├── datasets/ # Raw datasets used for the project (ERP and CRM data)
 │
-├── docs/ # Documentation & diagrams
-│ ├── etl.drawio # ETL techniques and methods
-│ ├── data_architecture.drawio # Project architecture diagram
-│ ├── data_catalog.md # Dataset metadata and descriptions
+├── docs/ # Project documentation and architecture details
+│ ├── etl.drawio # Shows ETL techniques and methods
+│ ├── data_architecture.drawio # Overall project architecture diagram
+│ ├── data_catalog.md # Dataset catalog (fields, descriptions, metadata)
 │ ├── data_flow.drawio # Data flow diagram
-│ ├── data_models.drawio # Star schema data models
-│ ├── naming-conventions.md # Naming standards
+│ ├── data_models.drawio # Data models (Star Schema)
+│ ├── naming-conventions.md # Naming standards for tables, columns, files
 │
-├── scripts/ # SQL scripts
-│ ├── bronze/ # Raw data ingestion
-│ ├── silver/ # Data cleaning & transformation
-│ ├── gold/ # Analytical models
+├── scripts/ # SQL scripts for ETL and transformations
+│ ├── bronze/ # Raw data extraction and loading
+│ ├── silver/ # Data cleaning and transformation
+│ ├── gold/ # Analytical models and business-ready data
 │
-├── tests/ # Testing and validation
+├── tests/ # Testing scripts and data quality checks
 │
-├── README.md # Project overview
-├── LICENSE # License file
-├── .gitignore # Git ignored files
-└── requirements.txt # Dependencies
-
-
+├── README.md # Project overview and setup instructions
+├── LICENSE # License information
+├── .gitignore # Ignored files and folders
+└── requirements.txt # Project dependencies
 ---
 
 ## ⭐ Key Highlights
@@ -142,4 +141,3 @@ data-warehouse-project/
 
 This project demonstrates how to design and implement a **scalable data warehouse solution**, transforming raw  data into meaningful insights for business decision-making.
 
-## 📂 Repository Structure
