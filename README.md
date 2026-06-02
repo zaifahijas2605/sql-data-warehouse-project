@@ -22,6 +22,8 @@ This project follows the **Medallion Architecture** approach:
 - Contains **business-ready data**
 - Modeled using a **Star Schema** for reporting and analytics
 
+![Database Diagram](docs/data_architecture.png)
+
 ---
 
 ## 📖 Project Overview
@@ -80,7 +82,7 @@ Develop a modern data warehouse to consolidate sales data and enable analytical 
 - **Data Quality:** Clean and resolve inconsistencies  
 - **Integration:** Combine data into a unified model  
 - **Scope:** Use only the latest dataset (no historization)  
-- **Documentation:** Provide clear and structured data model documentation  
+- **Documentation:**  Provide clear documentation of the data model to support both business stakeholders and analytics teams.
 
 ---
 
