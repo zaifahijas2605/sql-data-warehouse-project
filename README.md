@@ -139,3 +139,7 @@ data-warehouse-project/
 
 This project demonstrates how to design and implement a **scalable data warehouse solution**, transforming raw  data into meaningful insights for business decision-making.
 
+##  Acknowledgements
+- This project was built while following the SQL Ultimate Course by Data With Baraa.
+- All queries and implementation were written independently for learning purposes.
+
